@@ -1,0 +1,66 @@
+.li-pic {
+  position: relative;
+}
+
+.list3-label {
+  margin: 10px 0 10px 20px;
+}
+
+/* antd tag组件 */
+.site-tag-plus {
+  background: #fff;
+  border-style: dashed;
+}
+.edit-tag {
+  user-select: none;
+}
+.tag-input {
+  width: 78px;
+  margin-right: 8px;
+  vertical-align: top;
+}
+
+/* 卡片组件 */
+.cardlist-wrapper {
+  width: 240px;
+  padding: 10px;
+  border: 1px solid black;
+  display: none;
+  background-color: skyblue;
+  position: absolute;
+  top: -25px;
+  left: 40px;
+  z-index: 10;
+}
+
+.cardlist-wrapper.active {
+  display: block;
+}
+
+.ant-card-body {
+  padding: 10px !important;
+}
+
+/* card中头像用户名显示等 */
+.ant-card-body .ant-card-meta,
+.ant-card-body .ant-tag,
+.cardBasicInfo {
+  margin: 5px;
+}
+
+/* 用户名居中 */
+.ant-card-meta-detail {
+  line-height: 32px;
+  height: 32px;
+}
+
+/* 自己的 */
+.myUl {
+  margin: 20px;
+}
+.myUl > li {
+  border: 1px solid #d9d9d9;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,16 @@
+/* 右上角天气 */
+.list1-label {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* 历史稿件下拉菜单 */
+.list1-history {
+  margin: 20px 0 0 20px;
+}
+
+/* 列表组件 */
+.ant-list.ant-list-bordered {
+  margin-top: 20px;
+}
